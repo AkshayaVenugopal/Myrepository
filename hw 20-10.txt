@@ -1,5 +1,5 @@
 describe('SmartBear Demo', () => {
-        it('Should navigate to SmartBear Login Page', () => {
+        it('Should navigate to Smartbear Login Page', () => {
             browser.get('http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx');
             browser.getCurrentUrl().then((url) => {
             expect(url).toBe('http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx');
